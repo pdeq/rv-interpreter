@@ -1,4 +1,13 @@
-## How to use this interpreter
+## Building
+
+The only dependency is [Gtk 3][gtk].
+For example, use `brew install gtk+3` with Homebrew.
+
+Then type `make` to build the `interpreter` binary.
+
+[gtk]: https://docs.gtk.org/gtk3/
+
+## Using the Interpreter
 
 **Option 1**
 `./interpreter` will create a GUI
@@ -8,7 +17,7 @@
 - "Reset" will reset internal PC, memory, and registers
 
 **Option 2**
-`/.interpreter program.s` will print the values of the registers after running `program.s`
+`./interpreter program.s` will print the values of the registers after running `program.s`
 
 **Instructions supported:**
 
